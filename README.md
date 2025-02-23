@@ -30,3 +30,6 @@ e) Documento del comprador.
 
 ### CONCLUSIONES:
 
+- En este proyecto se logró implementar una aplicación de software que permite llevar un registro de ventas de un concesionario de vehículos, permitiendo almacenar la información de los vehículos y de los compradores, además de poder realizar búsquedas y consultas de la información almacenada.
+- Desarrollamos el entendimiento basico de la sintaxis de Java y la programación orientada a objetos.
+- El desarrollo del proyecto sirvio en gran medida como un ejercicio investigativo, para asi aprender a encontrar la informacion necesaria para su desarrollo correcto en lugares como stackoverflow y el libro de aprende java con ejercicios del autor Luis Jose Sanchez.
