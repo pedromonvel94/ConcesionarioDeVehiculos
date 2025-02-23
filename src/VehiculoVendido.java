@@ -21,7 +21,7 @@ public class VehiculoVendido {
                 break;
             }
 
-            System.out.println("Ingrese el codigo del vehiculo: ");
+            System.out.println("Ingrese el codigo del vehiculo (Numerico): ");
             int codigo = scanner.nextInt();
             scanner.nextLine();
 
@@ -46,13 +46,13 @@ public class VehiculoVendido {
                 }
             }
 
-            System.out.println("Ingrese el modelo del vehiculo: ");
+            System.out.println("Ingrese el modelo del vehiculo (Año): ");
             int modelo = scanner.nextInt();
 
-            System.out.println("Ingrese el kilometraje del vehiculo: ");
+            System.out.println("Ingrese el kilometraje del vehiculo (Numerico sin comas ni puntos): ");
             int kilometraje = scanner.nextInt();
 
-            System.out.println("Ingrese el precio del vehiculo: ");
+            System.out.println("Ingrese el precio del vehiculo (Numerico sin comas ni puntos): ");
             int precio_vehiculo = scanner.nextInt();
 
             Vehiculo vehiculo = new Vehiculo(codigo, marca, tipo, modelo, kilometraje, precio_vehiculo);
@@ -77,7 +77,7 @@ public class VehiculoVendido {
             System.out.print("Ingrese el apellido del comprador: ");
             String apellido = scanner.nextLine();
 
-            System.out.print("Ingrese el documento del comprador: ");
+            System.out.print("Ingrese el documento del comprador (Numerico sin comas ni numeros): ");
             int documento = scanner.nextInt();
 
             Vehiculo.venderVehiculo(codigo, nombre, apellido, documento, inventario, ventas);
