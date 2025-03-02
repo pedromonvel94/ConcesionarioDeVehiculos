@@ -77,7 +77,7 @@ public class VehiculoVendido {
             System.out.print("Ingrese el apellido del comprador: ");
             String apellido = scanner.nextLine();
 
-            System.out.print("Ingrese el documento del comprador (Numerico sin comas ni numeros): ");
+            System.out.print("Ingrese el documento del comprador (Numerico sin comas ni puntos): ");
             int documento = scanner.nextInt();
 
             Vehiculo.venderVehiculo(codigo, nombre, apellido, documento, inventario, ventas);

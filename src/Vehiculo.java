@@ -9,6 +9,7 @@ public class Vehiculo {
     int kilometraje;
     int precio_vehiculo;
 
+    //Metodo constructor Vehiculo
     public Vehiculo(int codigo, String marca, String tipo, int modelo, int kilometraje, int precio_vehiculo) {
         this.codigo = codigo;
         this.marca = marca;
